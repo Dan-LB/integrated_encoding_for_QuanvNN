@@ -25,20 +25,42 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
 ## Background
 [A section providing context about the research. Discuss the problem being addressed, the motivation for the work, and any relevant prior work or key concepts.]
 
+TO DO
+
 ## Reproducing the Experiments
 1. **Requirements:**  
-    WIP
-   [List the dependencies, libraries, and hardware/software requirements.]
+    This project is based on Python ```3.10.12```.
+      <details>
+    <summary>Requirements list</summary>
+    
+    ```yaml
+    matplotlib==3.9.2
+    numpy==2.1.0
+    pandas==2.2.2
+    Pillow==10.4.0
+    PyYAML==6.0.1
+    PyYAML==6.0.2
+    qiskit==1.1.0
+    qiskit_aer==0.14.1
+    qiskit_aer_gpu==0.14.1
+    qiskit_ibm_runtime==0.24.0
+    scipy==1.14.1
+    skimage==0.0
+    torch==2.3.0
+    torchvision==0.18.0
+    tqdm==4.66.4
 
+    ```
+
+    </details>
 2. **Setup Instructions:**  
-    WIP
-   [Step-by-step guide on how to set up the environment and install necessary dependencies.]
+    To set up the environment and install necessary dependencies:
 
-   Example:
    ```sh
-   git clone https://github.com/username/repo.git
-   cd repo
+   git clone https://github.com/Dan-LB/integrated_encoding_for_QuanvNN.git
+   cd integrated_encoding_for_QuanvNN 
    pip install -r requirements.txt
+   ```
 
 3. **Main results:**
     The following steps can be performed to obtain the main results - classification accuracy of the proposed integrated encoding, compared to rotational encoding and classical CNN, corresponding to Table 3 and Table 4. 
@@ -50,7 +72,6 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
     1. Execute ```main.py```. This script checks all the models in the ```configs``` folder and runs the experiment for 10 different seeds.
     2. Execute ```process_results.py```.
     3. The results will be stored in the folder ```results```.
-
 
 4. **Other results:**
     - Fig. 3 can be obtained from the notebook ```Compute_quantization_error.ipynb```.
@@ -71,9 +92,10 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
 * #### ```configs```
     The ```configs``` folder contains all the configuration used in this work.
 
-    Example of $Rnd...$
+    Example of $\text{QNN-Int-Simple}$:
     <details>
     <summary><i>QNN-Int-Simple-k3.yaml</i></summary>
+    
     ```yaml
 
     encoding: INTEGRATED
