@@ -9,7 +9,9 @@
 
 
 $\star$ corresponding author [lizziobosco.daniele@spes.uniud.it]
+
 $\bullet$ Department of Mathematics, Computer Science and Physics, University of Udine, Udine, Italy
+
 $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Italy
 
 **Link to the paper:**  
