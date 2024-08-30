@@ -18,7 +18,7 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
 ## Table of Contents
 1. [Background](#background)
 2. [Reproducing the Experiments](#reproducing-the-experiments)
-3. [Code Overview](#code-overview)
+3. [Code Highlights](#code-highlights)
 4. [Results](#results)
 
 
@@ -40,16 +40,27 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
    cd repo
    pip install -r requirements.txt
 
-3. **Main results (accuracy):**
-    WIP
-    In order to obtain the main results, execute first "main.py", then "process_results.py"
+3. **Main results:**
+    The following steps can be performed to obtain the main results - classification accuracy of the proposed integrated encoding, compared to rotational encoding and classical CNN, corresponding to Table 3 and Table 4. 
+
+    By default, the scripts perform the experiments on the MiraBest dataset. To use the LArTPC dataset instead, switch ```SELECTED_TASK = "MiraBest"``` to ```SELECTED_TASK = "LArTPC"``` in the considered files.
+
+    
+
+    1. Execute ```main.py```. This script checks all the models in the ```configs``` folder and runs the experiment for 10 different seeds.
+    2. Execute ```process_results.py```.
+    3. The results will be stored in the folder ```results```.
+
 
 4. **Other results:**
-    - Fig X regarding expressibility can be obtained by "compute_expressibility"... etc
+    - Fig. 3 can be obtained from the notebook ```Compute_quantization_error.ipynb```.
+    - Fig. 4 can be obtained from the notebook ```Compute_quantization_reduction.ipynb```.
+    - The procedure to produce Fig. 7 is described in the notebook ```Compute_expressibility.ipynb```.
 
-## Code overview
+## Code Highlights
 
-[A description of the code...]
+* #### Quanvolutional_Layer
+    This file contains the class ```QuanvolutionalLayer``` as a Torch.nn module. 
 
 
 ## Results
