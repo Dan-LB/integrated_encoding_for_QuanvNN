@@ -6,7 +6,7 @@ try:
 except:
     pass
 
-from QCNN_datashare.data_loader import load_multiclass
+
 
 def get_LArTPC_full(batch_size = 16, train_ratio = 0.8, downscale = False, autocrop = True):
     try:

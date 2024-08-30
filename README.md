@@ -59,8 +59,50 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
 
 ## Code Highlights
 
-* #### Quanvolutional_Layer
+* #### ```Quanvolutional_Layer.py```
     This file contains the class ```QuanvolutionalLayer``` as a Torch.nn module. 
+    Once initialized, the layer generates the circuits to be used as filters.
+* #### ```circuit_builder.py```
+    Contains the functions to construct the circuits, with both the standard approach and the proposed one.
+* #### ```model_builder.py```
+    Contains the function to construct a Quanvolutional model by constructing first a classical CNN, and then stacking a Quanvolutional layer on it with the function ```quanv_model = stack_quanv_on_top(quanv_layer, classical_model)```. 
+* #### ```main.py```
+    This script is used to perform all the experiments with 10 different seeds for each model present in the ```config``` folder.
+* #### ```configs```
+    The ```configs``` folder contains all the configuration used in this work.
+
+    Example of $Rnd...$
+    <details>
+    <summary><i>QNN-Int-Simple-k3.yaml</i></summary>
+    ```yaml
+
+    encoding: INTEGRATED
+    model:
+    conv1:
+        in_channels: 1
+        kernel_size: 3
+        out_channels: 16
+        padding: 0
+    dropout_conv_rate: 0.2
+    dropout_fc_rate: 0.2
+    fc1:
+        out_features: 32
+    fc2:
+        out_features: 2
+    input_shape:
+    - 1
+    - 30
+    - 30
+    quanv:
+    L: 18
+    activation: Full
+    kernel_size: 3
+    n_qubits: 4
+    n_shots: 1000
+    ```
+
+    </details>
+    
 
 
 ## Results
