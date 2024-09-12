@@ -9,7 +9,7 @@ import numpy as np
 import constants
 
 from qiskit import transpile
-from qiskit_aer import AerSimulator
+
 
 
 def generate_circuit_integrated(encoding_config, kernel_size): 
