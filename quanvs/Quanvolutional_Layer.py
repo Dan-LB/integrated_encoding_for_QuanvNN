@@ -6,7 +6,7 @@ import constants
 
 from qiskit.circuit import QuantumCircuit
 from qiskit_ibm_runtime import SamplerV2
-from qiskit_aer import AerSimulator
+#from qiskit_aer import AerSimulator
 
 from quanvs.quanv_util import quantize_patch
 import quanvs.quanv_util as utils
@@ -31,11 +31,11 @@ class QuanvolutionalLayer(nn.Module):
                  verbose = False):
         super(QuanvolutionalLayer, self).__init__()
 
-        if simulator == QuantumDevice.NOISELESS:
-            self.simulator = AerSimulator(method='statevector')
-            self.need_to_transpile = False
-        else:
-            raise Exception(f"Simulator '{simulator}' not recognized.")
+        #if simulator == QuantumDevice.NOISELESS:
+        #    self.simulator = AerSimulator(method='statevector')
+        #    self.need_to_transpile = False
+        #else:
+        #    raise Exception(f"Simulator '{simulator}' not recognized.")
 
         self.in_channels = in_channels
         self.out_channels = out_channels
