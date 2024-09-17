@@ -24,10 +24,6 @@ $\diamond$ Department of Biology, University of Naples Federico II, Napoli, Ital
 4. [Results](#results)
 
 
-## Background
-[A section providing context about the research. Discuss the problem being addressed, the motivation for the work, and any relevant prior work or key concepts.]
-
-TO DO
 
 ## Reproducing the Experiments
 1. **Requirements:**  
@@ -129,7 +125,5 @@ TO DO
     
 
 
-## Results
-[Tables + some numbers and some comments?]
 
 
