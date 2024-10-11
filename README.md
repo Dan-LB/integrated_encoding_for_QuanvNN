@@ -3,19 +3,19 @@
 
 
 **Authors:**  
-- Daniele Lizzio Bosco $^{\star, \bullet, \diamond}$
-- Beatrice Portelli  $^{\bullet, \diamond}$
-- Giuseppe Serra  $^{\bullet}$
+- Daniele Lizzio Bosco          (:star::dna::envelope:)
+- Beatrice Portelli  (:star::dna:)
+- Giuseppe Serra  (:star:)
 
 
-$\star$ corresponding author [lizziobosco.daniele@spes.uniud.it]
+:envelope: Corresponding author [lizziobosco.daniele@spes.uniud.it]
 
-$\bullet$ Department of Mathematics, Computer Science and Physics, University of Udine, Udine, Italy
+:star: Department of Mathematics, Computer Science and Physics, University of Udine, Udine, Italy 
 
-$\diamond$ Department of Biology, University of Naples Federico II, Napoli, Italy
+:dna:  Department of Biology, University of Naples Federico II, Napoli, Italy
 
-**Link to the paper:**  
-[arXiv link]
+**Read the paper here:**  
+https://arxiv.org/abs/2410.05777
 
 ## Table of Contents
 1. [Background](#background)
