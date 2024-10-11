@@ -3,9 +3,9 @@
 
 
 **Authors:**  
-- Daniele Lizzio Bosco          ( :star: :dna: :envelope: )
-- Beatrice Portelli  ( :star: :dna: )
-- Giuseppe Serra  ( :star: )
+- Daniele Lizzio Bosco           :abacus: :dna: :envelope: 
+- Beatrice Portelli  :abacus: :dna: 
+- Giuseppe Serra   :abacus:
 
 
 :envelope: Corresponding author [lizziobosco.daniele@spes.uniud.it]
