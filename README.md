@@ -8,11 +8,13 @@
 - Giuseppe Serra   :abacus:
 
 
-:envelope: Corresponding author [lizziobosco.daniele@spes.uniud.it]
 
-:star: Department of Mathematics, Computer Science and Physics, University of Udine, Udine, Italy 
+
+:abacus: Department of Mathematics, Computer Science and Physics, University of Udine, Udine, Italy 
 
 :dna:  Department of Biology, University of Naples Federico II, Napoli, Italy
+
+:envelope: Corresponding author [lizziobosco.daniele@spes.uniud.it]
 
 **Read the paper here:**  
 https://arxiv.org/abs/2410.05777
