@@ -20,12 +20,18 @@
 https://arxiv.org/abs/2410.05777
 
 ## Table of Contents
-1. [Background](#background)
+1. [Introduction](#Introduction)
 2. [Reproducing the Experiments](#reproducing-the-experiments)
 3. [Code Highlights](#code-highlights)
-4. [Results](#results)
 
 
+## Introduction
+
+Quantum Machine Learning (QML) is a rapidly growing field that merges the principles of quantum computing with machine learning to tackle complex computational tasks. In the context of image processing, Quanvolutional Neural Networks (QuanvNNs) represent a promising approach, especially for Noisy Intermediate-Scale Quantum (NISQ) devices, which are quantum computers available in the near future with limited qubits and no error correction.
+
+This repository implements an enhanced Quanvolutional Neural Network model, focusing on two major improvements: integrated encoding and flexible quantization. Our method addresses the limitations of existing QuanvNN architectures by introducing a more resource-efficient encoding scheme that combines encoding and processing into a single quantum circuit. Additionally, our flexible quantization method allows the dynamic adjustment of quantization levels, enabling users to balance computational efficiency with information retention.
+
+We demonstrate the effectiveness of our model by comparing it with classical convolutional neural networks (CNNs) and traditional QuanvNNs using rotational encoding. This repository includes the code for implementing the proposed enhancements and reproducing the experiments on benchmark datasets.
 
 ## Reproducing the Experiments
 1. **Requirements:**  
